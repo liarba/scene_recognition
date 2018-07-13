@@ -931,12 +931,12 @@ layer {
 
 layer {
   name: "loss"
-  type: "LiftedRgbdLoss"
+  type: "CorrelativeLoss"
   bottom: "hha_fc7128_2"
   bottom: "rgb_fc7128_2"
   bottom: "label"
-  top: "rgbd_lift_loss"
-  lifted_rgbd_loss_param {
+  top: "correlative_loss"
+  correlative_loss_param {
     margin: 1
   }
   include {
