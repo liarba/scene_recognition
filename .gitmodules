@@ -1,0 +1,3 @@
+[submodule "caffe_dev"]
+	path = caffe_dev
+	url = https://github.com/liarba/caffe_dev.git
